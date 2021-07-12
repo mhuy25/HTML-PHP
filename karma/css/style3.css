@@ -1,0 +1,103 @@
+
+
+
+#signinBox {
+	text-align: center;
+	border-spacing: 1px;
+	width: 500px;
+	height: 400px;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	box-shadow: 15px 15px 50px -10px #7971EA;
+	display: none;
+	position: absolute;
+	margin-left: -250px;
+	left: 50%;
+	top: 10%;
+	z-index: 15001;
+	background:#FFFFFF; 
+}
+#signinBox th {
+	font-size: 50px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: 100;
+	
+	
+}
+#signinBox input[type="text"],
+#signinBox input[type="password"]{
+	border-bottom:2px solid #7971EA;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-size: 20px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	
+}
+#signinBox input[type="button"]#signin{
+	cursor: pointer;
+	border:2px solid #7971EA;
+	background: white;
+	width: 200px;
+	height:50px;
+	color:#7971EA;
+	font-size: 20px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	position: relative;
+  	-webkit-transition: 0.2s all ease-in-out !important;
+  	-o-transition: 0.2s all ease-in-out !important;
+  	transition: 0.2s all ease-in-out !important;
+  	top: 0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+  	letter-spacing: .05em; 
+}
+#signinBox input[type="button"]#signin:hover,#signinBox input[type="button"]#signin:active {
+	background: #7971EA;
+	color:white;
+	-webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    top: -2px;
+}
+
+#opensignup{
+	cursor: pointer;
+	border:2px solid #7971EA;
+	background: #7971EA;
+	width: 100px;
+	height:30px;
+	color:white;
+	font-size: 20px;
+	font-family:"Constantia", "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	position: relative;
+  	-webkit-transition: 0.2s all ease-in-out !important;
+  	-o-transition: 0.2s all ease-in-out !important;
+  	transition: 0.2s all ease-in-out !important;
+  	top: 0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+  	letter-spacing: .05em; 
+}
+#opensignup:hover,#opensignup:active {
+	background: #7971EA;
+	color:white;
+	-webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    top: -2px;
+}
+
+
+
+
+
+
+
+
+
+
